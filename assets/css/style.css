@@ -1,0 +1,85 @@
+body{
+    background: url("../images/qbkls.png") repeat;
+    margin: 0px;
+}
+
+#banner{
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+header{
+    width: 960px;
+    margin: auto;
+    height: 48px;
+    background-color: white;
+
+
+}
+
+.myname{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: 600;
+    float: left;
+    height: 100%;
+    font-size: large;
+    line-height: 48px;
+    padding: 0 20px 0 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.headerlinks{
+    padding: 0 10px 0 10px;
+    float: right;
+    line-height: 48px;
+}
+
+.headerlinks a{
+    color: #777777;
+    'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1{
+    color: #4aaaa5;
+    font-weight: 600;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.maincontent{
+    width: 920px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.subcontainer{
+    border-top: 1px solid gray;
+}
+
+.profilepic{
+    margin-top: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+footer{
+    height: 48px;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footertext{
+    position: relative;
+    margin: auto;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+}
