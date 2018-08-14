@@ -1,3 +1,7 @@
+*{
+  color: #777777;
+}
+
 body{
     background: url("../images/qbkls.png") repeat;
     margin: 0px;
@@ -21,7 +25,7 @@ header{
 .myname{
     background-color: #4aaaa5;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     float: left;
     height: 100%;
     font-size: large;
@@ -46,18 +50,48 @@ h1{
     color: #4aaaa5;
     font-weight: 600;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 1%;
+}
+
+h2{
+    color: #4aaaa5;
+    font-weight: 600;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 1%;
+}
+
+textarea, input{
+    width: 100%;
+}
+
+.submitbutton{
+    width: 180px;
+    border-radius: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 0 solid #ffffff;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .maincontent{
-    width: 920px;
+    width: 960px;
     margin: auto;
-    padding: 20px;
     background-color: #ffffff;
     'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.subcontent{
+    padding: 2%;
+}
+
 .subcontainer{
     border-top: 1px solid gray;
+}
+
+.contactcn{
+    margin: 20px 0 0 0;
 }
 
 .profilepic{
