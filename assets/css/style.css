@@ -1,5 +1,6 @@
 *{
   color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body{
@@ -46,20 +47,28 @@ header{
     height: 100%;
     font-size: large;
     line-height: 48px;
-    padding: 0 20px 0 20px;
+    padding: 0 50px 0 50px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
 .headerlinks{
-    padding: 0 10px 0 10px;
     float: right;
     line-height: 48px;
 }
 
 .headerlinks a{
     color: #777777;
-    'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.headerlinks-cn{
+    float: right;
+    padding: 0 20px 0 20px;
+}
+
+.activelink a{
+    color: #4aaaa5;
 }
 
 h1{
@@ -76,6 +85,9 @@ h2{
     margin-top: 1%;
 }
 
+h4{
+    margin-bottom: 6px;
+}
 textarea, input{
     width: 100%;
 }
